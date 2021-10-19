@@ -18,3 +18,4 @@ public Student findOne(ArrayList<Student> students, String name) throws Exceptio
             return student;
     throw new Exception("There is no student with the given name!");
 }
+  
